@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        font-family: "Lato",sans-serif;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#555;
+        background-color: #ecf0f3;
+    
+    }
+    .login-div{
+        width: 830px;
+        height:700px;
+        padding:60px 35px 35px 35px;
+        border-radius: 40px;
+        justify-content: center;
+        background-color:rgb(255, 252, 95)/*  #ecf0f3 */;
+        box-shadow: 23px 23px 20px #cbced1,
+        -23px -23px 20px rgb(254, 255, 200);
+    }
+    .logo{
+        background: rgb(43, 144, 211);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 0 auto;
+        box-shadow: 0px 0px 2px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaaf,
+        -8px -8px 15px #fff;
+    
+      
+    }
+    .title{
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        letter-spacing: 0.5px;
+    
+    }
+    .sub-title{
+        text-align: center;
+        font-size: 15px;
+        padding-top: 3px;
+        letter-spacing: 1px;
+    }
+    .fields{
+        
+        padding:45px 5px 5px 5px ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fields input{
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 20px;
+        color:#555;
+        padding: 10px 10px 10px 5px;
+        
+        width: 70%;
+        
+        
+    
+    }
+    .username,.email,.phone_no,.address{
+        
+        margin-bottom: 30px;
+        margin-left:30px ;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px#cbced1,
+        inset -8px -8px 60px #fff;
+        display: flex;
+        height: 60px;
+    
+    
+    }
+    .ta{
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 20px;
+        width: 600px;
+        text-align: center;
+        color:#555;
+        height: 60px;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px#cbced1,
+        inset -8px -8px 60px #fff;
+    }
+    .fields svg{
+        
+        height:22px;
+        margin:18px 10px -3px 25px;
+    }
+    .signin-button{
+        outline: none;
+        border:none;
+        cursor: pointer;
+        width: 40%;
+        height: 60px;
+        margin-top: 45px;
+        margin-left: 220px;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        color: aliceblue;
+        background-color:rgb(238, 157, 195);
+        box-shadow: 6px 7px 8px #b1b1b1, -3px -9px 8px #fff;
+        transition:  all 0.5s;
+    }
+    .signin-button:hover{
+        background-color:rgb(157, 222, 238);
+    }
+    .signin-button:active{
+        background-color:#88ef9e;
+    }
+    @media screen and (max-width: 800px) {
+        body{
+            height: 130vh;
+        }
+        
+        .login-div{
+            height: 1200px;
+            
+        }
+    }
